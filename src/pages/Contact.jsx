@@ -1,4 +1,5 @@
-import './Contact.css'; 
+import './Contact.css';
+
 export default function Contact() {
   return (
     <div>
@@ -22,6 +23,15 @@ export default function Contact() {
                 <label htmlFor="timeZone">Your Time Zone
                   <select id="timeZone" required>
                     <option value="">Select your time zone</option>
+                    <option value="PST">Pacific Standard Time (PST)</option>
+                    <option value="MST">Mountain Standard Time (MST)</option>
+                    <option value="CST">Central Standard Time (CST)</option>
+                    <option value="EST">Eastern Standard Time (EST)</option>
+                    <option value="GMT">Greenwich Mean Time (GMT)</option>
+                    <option value="CET">Central European Time (CET)</option>
+                    <option value="IST">India Standard Time (IST)</option>
+                    <option value="JST">Japan Standard Time (JST)</option>
+                    <option value="AEST">Australian Eastern Standard Time (AEST)</option>
                   </select>
                 </label>
               </section>
@@ -32,6 +42,9 @@ export default function Contact() {
                 <label htmlFor="petType">Pet Type*
                   <select id="petType" required>
                     <option value="">Select pet type</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Fish">Fish</option>
                   </select>
                 </label>
                 <label htmlFor="breed">Breed (if applicable)<input id="breed" type="text" /></label>
@@ -47,6 +60,9 @@ export default function Contact() {
                 <label htmlFor="preferredTime">Preferred Time*
                   <select id="preferredTime" required>
                     <option value="">Select a time</option>
+                    <option value="Morning">Morning</option>
+                    <option value="Afternoon">Afternoon</option>
+                    <option value="Evening">Evening</option>
                   </select>
                 </label>
               </section>
@@ -71,13 +87,6 @@ export default function Contact() {
                 <li>✔️ Convenient virtual consultations</li>
                 <li>✔️ Follow-up resources and support</li>
               </ul>
-            </section>
-
-            <section>
-              <h3>Meet Our Pexperts</h3>
-              <p><strong>Dr. Sarah Wilson</strong><br />Feline Behavior Specialist</p>
-              <p><strong>Mark Thompson</strong><br />Canine Training Expert</p>
-              <p><strong>Dr. Amelia Rodriguez</strong><br />Exotic Pet Specialist</p>
             </section>
 
             <section className="contact-box">

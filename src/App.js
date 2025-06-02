@@ -7,10 +7,12 @@ import Cat from './pages/Cat';
 import Dog from './pages/Dog';
 import Fish from './pages/Fish';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop.jsx';
 
 function App() {
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
