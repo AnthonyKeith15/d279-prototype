@@ -1,0 +1,39 @@
+.content-block {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin: 30px 0;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* If image should appear on the right */
+.content-block.image-right {
+  flex-direction: row-reverse;
+}
+
+.block-image {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+.block-text {
+  flex: 1;
+}
+
+.block-title {
+  font-size: 1.1em;
+  color: #003B6D;
+  margin-bottom: 6px;
+}
+
+.block-subtitle {
+  color: #0072ce;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
