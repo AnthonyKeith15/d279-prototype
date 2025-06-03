@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/d279-prototype/static/css/main.05a4cb25.css",
+    "main.js": "/d279-prototype/static/js/main.b0b874ee.js",
+    "static/js/453.cef6900d.chunk.js": "/d279-prototype/static/js/453.cef6900d.chunk.js",
+    "static/media/PPPLogo.png": "/d279-prototype/static/media/PPPLogo.f95fc708071ad4cd51c5.png",
+    "index.html": "/d279-prototype/index.html",
+    "main.05a4cb25.css.map": "/d279-prototype/static/css/main.05a4cb25.css.map",
+    "main.b0b874ee.js.map": "/d279-prototype/static/js/main.b0b874ee.js.map",
+    "453.cef6900d.chunk.js.map": "/d279-prototype/static/js/453.cef6900d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05a4cb25.css",
+    "static/js/main.b0b874ee.js"
+  ]
+}
