@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Cat from './pages/Cat';
 import Dog from './pages/Dog';
@@ -21,6 +21,7 @@ function App() {
         <Route path="/dog" element={<Dog />} />
         <Route path="/fish" element={<Fish />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
       

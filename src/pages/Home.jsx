@@ -8,7 +8,7 @@ import './Home.css';
 export default function Home() {
   const resources = [
     {
-      image: 'https://yt3.googleusercontent.com/7LGzZMaGiRUIGYE_eGPjFwGKYC2QZEUJgRe9EgFOh4pi7n9sHoCc-GdE5VZWve1mv-kW258T=s900-c-k-c0x00ffffff-no-rj',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQ5qQq771B41-HaQp4yMQtY20oNwM-oOhwQ&s',
       title: 'General Pet Resources',
       link: 'https://bestfriends.org/pet-care-resources/issues/pet-adoption-resources'
     },
