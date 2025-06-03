@@ -72,7 +72,7 @@ export default function Contact() {
                 <label><input type="radio" name="method" required /> Video Call (Zoom, Google Meet)</label>
                 <label><input type="radio" name="method" /> Phone Call</label>
                 <label><input type="checkbox" /> Yes, send me helpful pet care tips and updates</label>
-                <label><input type="checkbox" required /> I agree to the <a href="#">terms and conditions</a>*</label>
+                <label><input type="checkbox" required /> I agree to the terms and conditions*</label>
               </section>
             </fieldset>
             <button type="submit">Schedule My Consultation</button>
