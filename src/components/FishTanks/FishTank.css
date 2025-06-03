@@ -1,0 +1,49 @@
+.fish-tank {
+  flex: 1 1 500px;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  margin: 40px 20px;
+}
+
+.tank-header {
+  margin-bottom: 12px;
+}
+
+.tank-subtitle {
+  margin: 0;
+  font-size: 1rem;
+  color: #003B6D;
+}
+
+.tank-title {
+  margin: 4px 0 0;
+  font-size: 1.5rem;
+  color: #6699CC;
+}
+
+.tank-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.tank-description {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.tank-stats {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #333;
+}
+
+.tank-stats li {
+  font-size: 1.2rem;
+}

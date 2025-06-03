@@ -1,22 +1,25 @@
 .resource-card {
-  background: gray;
+  background: #003B6D;
   border-radius: 8px;
   padding: 16px;
   text-align: center;
-  width: 180px;
+  min-width: 15%;
+  max-width: 20%;
+  height: 20%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .resource-card img {
-  width: 100%;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
   margin-bottom: 12px;
 }
 
 .resource-card h4 {
   margin-bottom: 10px;
-  color: #003B6D;
+  font-size: 1.6em;
+  color: #ffffff;
 }
 
 .resource-card a {
@@ -30,5 +33,5 @@
 }
 
 .resource-card a:hover {
-  background-color: #003B6D;
+  background-color: #bdbdbd;
 }

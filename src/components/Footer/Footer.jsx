@@ -48,11 +48,6 @@ export default function Footer() {
         <a href="#">▶️</a>
         <a href="#">📌</a>
       </div>
-      <p>Subscribe to Our Newsletter</p>
-      <form className="newsletter-form">
-        <input type="email" placeholder="Your email" required />
-        <button type="submit">Button</button>
-      </form>
     </div>
   </div>
 

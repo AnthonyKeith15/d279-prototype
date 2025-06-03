@@ -15,11 +15,12 @@
 }
 
 .block-image {
-  width: 180px;
-  height: 180px;
-  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   background-color: #eee;
   border-radius: 6px;
+  margin: auto 0;
 }
 
 .block-text {
@@ -27,7 +28,7 @@
 }
 
 .block-title {
-  font-size: 1.1em;
+  font-size: 1.7rem;
   color: #003B6D;
   margin-bottom: 6px;
 }
@@ -36,4 +37,5 @@
   color: #0072ce;
   font-weight: bold;
   margin-bottom: 10px;
+
 }

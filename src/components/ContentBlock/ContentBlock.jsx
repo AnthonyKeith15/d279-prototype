@@ -3,7 +3,7 @@ import './ContentBlock.css';
 export default function ContentBlock({ 
   title, 
   subtitle, 
-  text, 
+  children, 
   image, 
   imageAlt = '', 
   imagePosition = 'left' 
@@ -15,8 +15,9 @@ export default function ContentBlock({
       <div className="block-text">
         <h4 className="block-title">{title}</h4>
         <p className="block-subtitle">{subtitle}</p>
-        <p>{text}</p>
+        {children}
       </div>
     </div>
   );
 }
+
