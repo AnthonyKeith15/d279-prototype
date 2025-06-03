@@ -1,0 +1,55 @@
+#unique-call-to-action.cta-block {
+  background-color: #003B6D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 79%;
+  height: 15vh;          
+  margin: 2rem auto;        
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+#unique-call-to-action .cta-text {
+  min-width: 250px;
+  text-justify: auto;
+}
+
+#unique-call-to-action .cta-text h3 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin: auto;
+}
+
+#unique-call-to-action .cta-text p {
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+#unique-call-to-action .cta-button {
+  background-color: #6699CC;
+  color: white;
+  padding: 30px 20px;
+  margin: 30px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+#unique-call-to-action .cta-button:hover {
+  background-color: #676767;
+}
+
+#unique-call-to-action .cta-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+

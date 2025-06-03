@@ -1,8 +1,45 @@
-.resource-card-grid {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
-  padding: 20px 0;
-
+body {
+  margin: 0;
 }
+
+
+
+.homepage-section {
+  width: 98%;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.homepage-section h2 {
+  font-size: 1.8rem;
+  color: #003B6D;
+  margin-bottom: 30px;
+}
+
+.resource-card-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.light-bg {
+  background-color: #bdbdbd;
+}
+
+.dark-bg {
+  background-color: #676767;
+}
+
+.rounded-cards img {
+  width: 150px;           /* or whatever size fits */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem;    /* centers image and adds spacing */
+}
+
+

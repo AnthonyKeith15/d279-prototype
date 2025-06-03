@@ -1,10 +1,11 @@
 import ContentBlock from "../components/ContentBlock/ContentBlock";
 import TitleImage from "../components/TitleImage/TitleImage";
+import CallToAction from "../components/CallToAction/CallToAction";
 export default function Dog() {
   return (
     <main className="page">
       <TitleImage
-        image="https://images.unsplash.com/photo-1534361960057-19889db9621e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image="https://images.unsplash.com/photo-1518914781460-a3ada465edec?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         title="Dog Care"
         subtitle="Essential tips for a happy and healthy dog"
         alt="Dog playing in the park" />
@@ -38,6 +39,12 @@ export default function Dog() {
       >
         <p>You should always consult with your veterinarian, but there is a core set of vaccines that are typically recommended. Vaccines that reduce the exposure risk to things such as hepatitis, rabies, and parvovirus. Others may be determined by your vet depending on the environment in which the dog resides. Some of these include <a href="https://www.aspca.org/pet-care/general-pet-care/vaccinations-your-pet" target="_blank" rel="noreferrer">Bordetella bronchiseptica, Borrelia burgdorferi, and Leptospira bacteria.</a></p>
       </ContentBlock>
+      <CallToAction
+        title="Questions on caring for your new puppy??"
+        subtext="Book a consultation with our pexperts today!"
+        image="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Newborn kitten"
+      />
     </main>
   );
 }

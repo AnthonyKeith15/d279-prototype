@@ -1,5 +1,6 @@
 import TitleImage from "../components/TitleImage/TitleImage";
 import FishTank from "../components/FishTanks/FishTank";
+import CallToAction from "../components/CallToAction/CallToAction";
 import './Fish.css';
 
 export default function Fish() {
@@ -64,6 +65,12 @@ export default function Fish() {
           </a>
         </li>
       </ul>
+      <CallToAction
+        title="Unsure where to start?"
+        subtext="Book a consultation with our pexperts today!"
+        image="https://images.unsplash.com/photo-1585936529565-1871537209e3?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Newborn kitten"
+      />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import ContentBlock from "../components/ContentBlock/ContentBlock";
 import TitleImage from "../components/TitleImage/TitleImage";
+import CallToAction from "../components/CallToAction/CallToAction";
 import "./Cat.css";
 
 
@@ -57,7 +58,12 @@ export default function Cat() {
       <p>Much like many living organisms, the body begins to deteriorate and experience a lot of changes. Cats at this age should eat less fats and calories and more quality proteins. This means when you are purchasing packaged foods for your cat, look for food that states a particular protein (such as "salmon") and not just a category (such as fish). This usually means they are byproducts, or combinations, of lesser quality proteins.</p>
       </ContentBlock>
 
-
+      <CallToAction
+        title="Need Help with Your Cat's Diet?"
+        subtext="Book a consultation with our pet nutrition experts today!"
+        image="https://images.unsplash.com/photo-1596272875729-ed2ff7d6d9c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Cat waving hello"
+      />
     </main>
   );
 }
