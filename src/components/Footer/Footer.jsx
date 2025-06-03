@@ -30,11 +30,11 @@ export default function Footer() {
     <div className="footer-column">
       <h4>Our Services</h4>
       <ul>
-        <li><a href="#">Virtual Consultations</a></li>
-        <li><a href="#">Group Presentations</a></li>
-        <li><a href="#">Pet Care Resources</a></li>
-        <li><a href="#">Adoption Resources</a></li>
-        <li><a href="#">About Our Pexperts</a></li>
+        <li>Virtual Consultations</li>
+        <li>Group Presentations</li>
+        <li>Pet Care Resources</li>
+        <li>Adoption Resources</li>
+        <li>About Our Pexperts</li>
 
       </ul>
     </div>
@@ -42,11 +42,11 @@ export default function Footer() {
     <div className="footer-column">
       <h4>Connect With Us</h4>
       <div className="social-icons">
-        <a href="#">🐦</a>
-        <a href="#">📘</a>
-        <a href="#">📸</a>
-        <a href="#">▶️</a>
-        <a href="#">📌</a>
+        🐦
+        📘
+        📸
+        ▶️
+        📌
       </div>
     </div>
   </div>
@@ -54,10 +54,10 @@ export default function Footer() {
   <div className="footer-bottom">
     <p>© 2025 Paradigm Pet Professionals. All rights reserved.</p>
     <div className="footer-links">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
-      <a href="#">Accessibility</a>
-      <a href="#">Sitemap</a>
+      Privacy Policy
+      Terms of Service
+      Accessibility
+      Sitemap
     </div>
   </div>
 </footer>
